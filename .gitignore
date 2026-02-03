@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dll
+.Python
+.env
+venv/
+.venv/
+.venv_py312/
+Lib/
+Scripts/
+Include/
+site-packages/
+pip-log.txt
+
+# Model files (ใหญ่เกินไปสำหรับ Git)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+
+# Video/Alert outputs
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+alert_snapshot.jpg
+alert_video.mp4
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Git
+.git/
